@@ -19,9 +19,11 @@ public class Calculator {
             case '/': ans = n1 / n2; break;
             default:
                 System.out.println("Error! Enter correct operator");
+                sc.close();
                 return;
         }
         System.out.println("The result is:");
         System.out.println(n1 + " " + op + " " + n2 + " = " + ans);
+        sc.close();  
     }
 }
