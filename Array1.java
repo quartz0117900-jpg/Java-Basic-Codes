@@ -18,22 +18,22 @@ int size();                           //return size of an array
 Use all the function in main method. Create different objects with different 
 constructors. */
 
-public class MyArray {
+public class Array1 {
     
     int data[]; // array field to store numbers (like a row of lockers)
 
     // Constructor 1 - when no size is given, create 10 lockers by default
-    MyArray() {
+    Array1() {
         data = new int[10]; // create array of size 10
     }
 
     // Constructor 2 - when size is given, create that many lockers
-    MyArray(int size) {
+    Array1(int size) {
         data = new int[size]; // create array of given size
     }
 
     // Constructor 3 - when array is given, use it directly
-    MyArray(int d[]) {
+    Array1(int d[]) {
         data = d; // store the given array into data
     }
 
@@ -109,16 +109,16 @@ public class MyArray {
     public static void main(String[] args) {
 
         // Object 1 - using Constructor 1 (default size 10)
-        MyArray a1 = new MyArray();
+        Array1 a1 = new Array1();
         System.out.println("Size of a1: " + a1.size()); // prints 10
 
         // Object 2 - using Constructor 2 (custom size 5)
-        MyArray a2 = new MyArray(5);
+        Array1 a2 = new Array1(5);
         System.out.println("Size of a2: " + a2.size()); // prints 5
 
         // Object 3 - using Constructor 3 (pre-filled array)
         int[] d = {5, 2, 8, 1, 9};  // create array with values
-        MyArray a3 = new MyArray(d) ; // pass array to constructor
+        Array1 a3 = new Array1(d) ; // pass array to constructor
 
         System.out.print("Original: ");
         a3.display(); // prints: 5 2 8 1 9
