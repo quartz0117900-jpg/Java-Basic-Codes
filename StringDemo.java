@@ -1,30 +1,28 @@
 public class StringDemo {
     public static void main(String[] args) {
-
-        // =================== STRING METHODS ===================
         System.out.println("=== String Methods ===\n");
 
-        String s = "Hello World";
+        String a = "Hello World";
 
         // length() - count total characters including spaces
-        System.out.println("String: " + s);
-        System.out.println("Length: " + s.length()); // 11
+        System.out.println("String: " + a);
+        System.out.println("Length: " + a.length()); // 11
 
         // charAt() - get character at given position
-        System.out.println("Char at 0: " + s.charAt(0));   // H
-        System.out.println("Char at 6: " + s.charAt(6));   // W
+        System.out.println("Char at 0: " + a.charAt(0));   // H
+        System.out.println("Char at 6: " + a.charAt(6));   // W
 
         // indexOf() - find position of character or word
-        System.out.println("Index of 'o': " + s.indexOf('o'));        // 4
-        System.out.println("Index of 'World': " + s.indexOf("World")); // 6
+        System.out.println("Index of 'o': " + a.indexOf('o'));        // 4
+        System.out.println("Index of 'World': " + a.indexOf("World")); // 6
 
         // substring() - cut a part of string
-        System.out.println("Substring from 6: " + s.substring(6));     // World
-        System.out.println("Substring 0 to 5: " + s.substring(0, 5)); // Hello
+        System.out.println("Substring from 6: " + a.substring(6));     // World
+        System.out.println("Substring 0 to 5: " + a.substring(0, 5)); // Hello
 
         // toUpperCase() and toLowerCase() - change case
-        System.out.println("Uppercase: " + s.toUpperCase()); // HELLO WORLD
-        System.out.println("Lowercase: " + s.toLowerCase()); // hello world
+        System.out.println("Uppercase: " + a.toUpperCase()); // HELLO WORLD
+        System.out.println("Lowercase: " + a.toLowerCase()); // hello world
 
         // trim() - remove spaces from both sides
         String spacedStr = "   Hello   ";
@@ -32,8 +30,8 @@ public class StringDemo {
         System.out.println("After trim: '" + spacedStr.trim() + "'");   // 'Hello'
 
         // replace() - replace a character or word with another
-        System.out.println("Replace 'l' with 'r': " + s.replace('l', 'r')); // Herro Worrd
-        System.out.println("Replace 'World' with 'Java': " + s.replace("World", "Java")); // Hello Java
+        System.out.println("Replace 'l' with 'r': " + a.replace('l', 'r')); // Herro Worrd
+        System.out.println("Replace 'World' with 'Java': " + a.replace("World", "Java")); // Hello Java
 
         // equals() - compare two strings (case sensitive)
         String s1 = "Hello";
@@ -44,17 +42,17 @@ public class StringDemo {
         System.out.println("s1 equalsIgnoreCase s3: " + s1.equalsIgnoreCase(s3)); // true
 
         // contains() - check if string has given text
-        System.out.println("Contains 'World': " + s.contains("World")); // true
-        System.out.println("Contains 'Java': " + s.contains("Java"));   // false
+        System.out.println("Contains 'World': " + a.contains("World")); // true
+        System.out.println("Contains 'Java': " + a.contains("Java"));   // false
 
         // startsWith() and endsWith() - check beginning and end
-        System.out.println("Starts with 'Hello': " + s.startsWith("Hello")); // true
-        System.out.println("Ends with 'World': " + s.endsWith("World"));     // true
+        System.out.println("Starts with 'Hello': " + a.startsWith("Hello")); // true
+        System.out.println("Ends with 'World': " + a.endsWith("World"));     // true
 
         // isEmpty() - check if string is empty
         String emptyStr = "";
         System.out.println("Is empty: " + emptyStr.isEmpty()); // true
-        System.out.println("Is empty: " + s.isEmpty());        // false
+        System.out.println("Is empty: " + a.isEmpty());        // false
 
         // split() - break string into array by separator
         String csv = "Apple,Banana,Mango";
@@ -75,7 +73,7 @@ public class StringDemo {
         System.out.println("valueOf int: " + numStr);
 
         // toCharArray() - convert String to array of characters
-        char[] chars = s.toCharArray();
+        char[] chars = a.toCharArray(); 
         System.out.print("Char array: ");
         for(char c : chars) {
             System.out.print(c + " "); // H e l l o   W o r l d
