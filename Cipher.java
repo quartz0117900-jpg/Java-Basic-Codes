@@ -13,11 +13,11 @@ Functions:
 Read string and key from command prompt and replace every character of string 
 with character which is key place down from current character. 
 Example 
- plainText = “GCET” 
-Key = 3 
+ plainText = “QUARTZ” 
+Key = 4 
 Encryption function written following String 
- “ JFHW” 
-Decryption function will convert encrypted string to original form    “GCET”
+ “UYEVXD” 
+Decryption function will convert encrypted string to original form  "QUARTZ"
 */
 import java.util.Scanner;
 
