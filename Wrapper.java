@@ -58,9 +58,7 @@ public class Wrapper {
         System.out.println("Parsed boolean: " + b);
 
   
-        System.out.println("Boolean to String: " + Boolean.toString(false)); // "false"
-
-   
+        System.out.println("Boolean to String: " + Boolean.toString(false)); //"false"
 
         System.out.println("\n=== AutoBoxing ===");
 
