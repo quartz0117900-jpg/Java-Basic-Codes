@@ -1,3 +1,7 @@
+/*  1. Create a class BankAccount that has Depositor name , Acc_no,  Acc_type, Balance as 
+Data Members and void createAcc() . void Deposit(), void withdraw() and void 
+BalanceInquiry as Member Function. When a new Account is created assign next 
+serial no as account number. Account number starts from 1  */
 import java.util.Scanner;
 
 public class BankAccount {
