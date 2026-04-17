@@ -1,3 +1,8 @@
+/*
+2. Create a class time that has hour, minute and second as data members. Create a 
+parameterized constructor to initialize Time Objects. Create a member Function Time 
+Sum (Time, Time) to sum two time objects
+*/
 public class Time {
 
     int hour;   // stores hours
