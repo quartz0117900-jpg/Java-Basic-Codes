@@ -1,3 +1,10 @@
+/*
+3)
+(iii). Define a class with the Name, Basic salary and dearness allowance as data 
+members.Calculate and print the Name, Basic salary(yearly), dearness allowance and 
+tax deduced at source(TDS) and net salary, where TDS is charged on gross salary  
+which is basic salary + dearness allowance and TDS rate is as per following table.  
+*/
 public class Salary {
 
     String name;        // employee name
