@@ -1,3 +1,11 @@
+/*  
+Q.4) Inheritance and interface
+
+1. class Cricket having data members name, age and member methods display() and 
+setdata(). class Match inherits Cricket and has data members no_of_odi, no_of_test. 
+Create an array of 5 objects of class Match. Provide all the required data through 
+command line and display the information. 
+ */
 import java.util.Scanner;
 
 // Parent class Cricket
