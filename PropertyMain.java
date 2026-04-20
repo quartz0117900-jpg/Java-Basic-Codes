@@ -13,7 +13,6 @@ Additional cost ( for Flat)     : Rs. 200000/-
 feet for landArea 
 Land cost  ( only for Bungalow ): Rs. 400/- per sq. feet 
 Define method main to show usage of method computePrice. 
-
 */
 // Interface - acts like a contract
 // any class that implements it MUST have computePrice()
