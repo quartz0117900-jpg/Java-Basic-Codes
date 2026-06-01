@@ -1,3 +1,15 @@
+/* 
+Q.6 Generics:
+1). Declare a class InvoiceDetail which accepts a type parameter which is of type 
+Number with following  data members 
+class InvoiceDetail <N extends Number> { 
+private String invoiceName; 
+private  N amount; 
+private N discount 
+ // write getters, setters and constructors 
+} 
+Call the methods in Main class */
+
 public class InvoiceDetail<N extends Number> {
 
     private String invoiceName;
