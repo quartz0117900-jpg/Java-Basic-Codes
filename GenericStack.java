@@ -1,4 +1,6 @@
-// GenericStack.java
+/* 
+Q6. (2) Implement GenericStack.java
+*/
 import java.util.ArrayList;
 
 public class GenericStack<T> {
